@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="row">
+        <div class="col"></div>
+        <div class="col">
+            <h2 style="text-align: center;margin-top: 70px;">Calculator</h2>
+        </div>
+        <div class="col"></div>
+    </div>
+    
+    <div  class="first">
+    
+    
+    <input id="t1" type="text" name="enter" class="text1">
+    <input  id="first" type="button" name="clear" value="c" onclick="clearBox('c')">
+    <br>
+    
+    <input class="class1"type="button" name="one" value="1" onclick="displayValue('1')">
+    <input type="button" name="two" value="2" onclick="displayValue('2')">
+    <input type="button" name="three" value="3" onclick="displayValue('3')">
+    <input type="button" name="add" value="+" onclick="displayValue('+')"><br>
+    
+    
+    <input class="class1" type="button" name="four" value="4" onclick="displayValue('4')">
+    <input type="button" name="five" value="5" onclick="displayValue('5')">
+    <input type="button" name="six" value="6" onclick="displayValue('6')">
+    <input type="button" name="sub" value="-" onclick="displayValue('-')"><br>
+    
+    
+    
+    <input class="class1" type="button" name="seven" value="7" onclick="displayValue('7')">
+    <input type="button" name="eight" value="8" onclick="displayValue('8')">
+    <input type="button" name="nine" value="9" onclick="displayValue('9')">
+    <input type="button" name="mul" value="x" onclick="displayValue('*')">
+    <br>
+    
+    
+    <input class="class1" type="button" name="div" value="/" onclick="displayValue('/')">
+    <input type="button" name="zero" value="0" onclick="displayValue('0')">
+    <input type="button" name="dot" value="." onclick="displayValue('.')">
+    <input type="button" name="equal" value="=" onclick="evaluateExpression('=')">
+</div>
+
+</body>
+</html>
