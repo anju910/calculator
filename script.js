@@ -13,3 +13,6 @@ function clearBox(){
     t1.value="";
 
 }
+function removeElement(){
+    t1.value=t1.value.slice(0,-1);
+}
